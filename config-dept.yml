@@ -1,15 +1,15 @@
 spring:
-    profiles:
-        active:
+  profiles:
+    active:
 
 ---
 server:
   port: 8201
 # spring的配置
 spring:
-    profiles: dev
-    application:
-        name: springcloud-config-dept
+  profiles: dev
+  application:
+    name: springcloud-config-dept
         
 #Eureka配置
 eureka:
@@ -22,9 +22,9 @@ server:
   port: 8202
 # spring的配置
 spring:
-    profiles: test
-    application:
-        name: springcloud-config-dept
+  profiles: test
+  application:
+    name: springcloud-config-dept
         
 #Eureka配置
 eureka:
