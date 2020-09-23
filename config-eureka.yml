@@ -24,6 +24,9 @@ eureka:
 #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 ---
+server:
+  port: 7001
+
 #spring配置
 spring:
   profiles: test
